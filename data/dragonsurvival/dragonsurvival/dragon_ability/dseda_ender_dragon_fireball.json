@@ -1,0 +1,73 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "initial_mana_cost": 2,
+    "cooldown": 80,
+    "cast_time": 10,
+    "can_move_while_casting": true,
+    "sound": {
+      "start": "minecraft:entity.ender_dragon.shoot"
+    },
+    "animations": {}
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:experience_levels",
+    "maximum_level": 8,
+    "level_requirement": {
+      "type": "minecraft:lookup",
+      "values": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75,
+        90,
+        100
+      ],
+      "fallback": 15
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:run_function",
+              "function": "ds_ender_dragon_addon:fireball-data/fireball-init"
+            }
+          ],
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 0
+    }
+  ],
+  "can_be_manually_disabled": false,
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/forest/spike_0"
+      },
+      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/forest/spike_1"
+      },
+      {
+        "from_level": 2,
+        "texture_resource": "dragonsurvival:abilities/forest/spike_2"
+      },
+      {
+        "from_level": 3,
+        "texture_resource": "dragonsurvival:abilities/forest/spike_3"
+      },
+      {
+        "from_level": 4,
+        "texture_resource": "dragonsurvival:abilities/forest/spike_4"
+      }
+    ]
+  }
+}

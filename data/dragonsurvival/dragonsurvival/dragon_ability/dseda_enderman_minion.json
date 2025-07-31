@@ -1,0 +1,82 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:simple",
+    "initial_mana_cost": 10,
+    "cast_time": 100,
+    "cooldown": 2400,
+    "can_move_while_casting": false
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:experience_levels",
+    "maximum_level": 6,
+    "level_requirement": {
+      "type": "minecraft:lookup",
+      "values": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "fallback": 20
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:area",
+        "applied_effects": {
+          "block_effect": [
+            {
+              "effect_type": "dragonsurvival:summon_entity",
+              "base": {
+                "id": "dseda_enderman_minion",
+                "duration": 2400,
+                "should_remove_automatically": false,
+                "is_hidden": false
+              },
+              "entities": "minecraft:enderman",
+              "max_summons": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              },
+              "attribute_scales": [
+                {
+                  "attributes": "minecraft:generic.max_health",
+                  "scale": {
+                    "type": "minecraft:linear",
+                    "base": -0.5,
+                    "per_level_above_first": 0.15
+                  }
+                },
+                {
+                  "attributes": "minecraft:generic.attack_damage",
+                  "scale": {
+                    "type": "minecraft:linear",
+                    "base": -0.5,
+                    "per_level_above_first": 0.15
+                  }
+                }
+              ],
+              "is_allied": true
+            }
+          ],
+          "targeting_mode": "all"
+        },
+        "radius": 10.0
+      },
+      "trigger_rate": 1.0
+    }
+  ],
+  "can_be_manually_disabled": false,
+  "icon": {
+    "texture_entries": [
+      {
+        "texture_resource": "dragonsurvival:abilities/forest/hunter_0",
+        "from_level": 0
+      }
+    ]
+  }
+}
