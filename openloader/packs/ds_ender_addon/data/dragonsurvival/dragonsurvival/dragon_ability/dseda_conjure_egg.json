@@ -1,0 +1,44 @@
+{
+    "activation": {
+        "activation_type": "dragonsurvival:simple",
+        "initial_mana_cost": 27,
+        "cast_time": 300,
+        "cooldown": 72000,
+        "can_move_while_casting": false
+    },
+    "upgrade": {
+        "upgrade_type": "dragonsurvival:experience_levels",
+        "maximum_level": 1,
+        "level_requirement": 100
+    },
+    "actions": [
+        {
+            "target_selection": {
+                "target_type": "dragonsurvival:self",
+                "applied_effects": {
+                    "entity_effect": [
+                        {
+                            "effect_type": "dragonsurvival:run_function",
+                            "function": "ds_ender_dragon_addon:conjure-egg"
+                        }
+                    ],
+                    "targeting_mode": "all"
+                }
+            },
+            "trigger_rate": 0
+        }
+    ],
+    "can_be_manually_disabled": false,
+    "icon": {
+        "texture_entries": [
+            {
+                "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/conjure_egg_0",
+                "from_level": 0
+            },
+            {
+                "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/conjure_egg_1",
+                "from_level": 1
+            }
+        ]
+    }
+}

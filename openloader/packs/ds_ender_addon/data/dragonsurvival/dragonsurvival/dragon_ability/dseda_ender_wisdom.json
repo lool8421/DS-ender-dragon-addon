@@ -1,0 +1,84 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:experience_points",
+    "maximum_level": 50,
+    "experience_cost": {
+      "type": "minecraft:levels_squared",
+      "added": 5
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dseda_wisdom",
+                    "is_hidden": true
+                  },
+                  "modifiers": [
+                    {
+                      "attribute": "dragonsurvival:experience",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.02,
+                        "per_level_above_first": 0.02
+                      },
+                      "operation": "add_value"
+                    },
+                    {
+                      "attribute": "dragonsurvival:mana",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.5,
+                        "per_level_above_first": 0.5
+                      },
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 1
+    }
+  ],
+  "can_be_manually_disabled": true,
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/ender_wisdom_0"
+      },      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/ender_wisdom_1"
+      },      {
+        "from_level": 10,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/ender_wisdom_2"
+      },      {
+        "from_level": 20,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/ender_wisdom_3"
+      },      {
+        "from_level": 30,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/ender_wisdom_4"
+      },      {
+        "from_level": 40,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/ender_wisdom_5"
+      },      {
+        "from_level": 50,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/ender_wisdom_6"
+      }
+    ]
+  }
+}

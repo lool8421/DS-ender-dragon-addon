@@ -1,0 +1,8 @@
+{
+	"species": "dragonsurvival:dseda_ender_dragon",
+	"stage": "dragonsurvival:dseda_ender_dragon_young",
+	"model": "dragonsurvival:dseda_ender_dragon_model",
+	"parts": {
+		"base": "dseda_ender_dragon_base_1"
+	}
+}

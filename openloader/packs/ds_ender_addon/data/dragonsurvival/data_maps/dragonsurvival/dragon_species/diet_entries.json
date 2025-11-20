@@ -1,0 +1,183 @@
+{
+	"values": {
+		"dragonsurvival:dseda_ender_dragon": {
+			"neoforge:conditions": [
+				{
+					"type": "dragonsurvival:registered",
+					"registry": "dragonsurvival:dragon_species",
+					"value": "dragonsurvival:dseda_ender_dragon"
+				}
+			],
+			"neoforge:value": [
+				{
+					"items": "minecraft:chorus_fruit",
+					"properties": {
+						"eat_seconds": 0.8,
+						"nutrition": 4,
+						"saturation": 1.0
+					}
+
+				},{
+					"items": "minecraft:popped_chorus_fruit",
+					"properties": {
+						"eat_seconds": 0.8,
+						"nutrition": 8,
+						"saturation": 3.0
+					}
+
+				},
+				{
+					"items": "dragonsurvival:diamond_chorus",
+					"properties": {
+						"eat_seconds": 0.8,
+						"nutrition": 20,
+						"saturation": 10.0,
+						"can_always_eat": true
+					}
+					
+				},
+				{
+					"items": "minecraft:amethyst_shard",
+					"properties": {
+						"eat_seconds": 1.5,
+						"nutrition": 6,
+						"saturation": 1.5
+					}
+					
+				},
+				{
+					"items": "minecraft:obsidian",
+					"properties": {
+						"eat_seconds": 3.0,
+						"nutrition": 10,
+						"saturation": 4.0
+					}
+					
+				},
+				{
+					"items": "minecraft:lapis_lazuli",
+					"properties": {
+						"eat_seconds": 1.5,
+						"nutrition": 6,
+						"saturation": 1.5
+					}
+					
+				},
+				{
+					"items": "minecraft:crying_obsidian",
+					"properties": {
+						"eat_seconds": 3.0,
+						"nutrition": 12,
+						"saturation": 6.0
+					}
+					
+				},
+				{
+					"items": "minecraft:quartz",
+					"properties": {
+						"eat_seconds": 1.5,
+						"nutrition": 6,
+						"saturation": 1.5
+					}
+					
+				},
+				{
+					"items": "minecraft:enchanted_book",
+					"properties": {
+						"eat_seconds": 0.8,
+						"nutrition": 12,
+						"saturation": 6.0,
+						"can_always_eat": true,
+          				"using_converts_to": {
+			            "id": "minecraft:book"
+          				}
+					}
+					
+				},
+				{
+					"items": "minecraft:blaze_powder",
+					"properties": {
+						"eat_seconds": 0.4,
+						"nutrition": 8,
+						"saturation": 3.0
+					}
+					
+				},
+				{
+					"items": "minecraft:nether_star",
+					"properties": {
+						"eat_seconds": 0.8,
+						"nutrition": 20,
+						"saturation": 20.0,
+						"can_always_eat": true
+					}
+					
+				},
+				{
+					"items": "minecraft:enchanted_golden_apple",
+					"properties": {
+						"eat_seconds": 0.8,
+						"nutrition": 20,
+						"saturation": 20.0,
+						"can_always_eat": true
+					}
+					
+				},
+				{
+					"items": "minecraft:diorite",
+					"properties": {
+						"eat_seconds": 3.0,
+						"nutrition": 2,
+						"saturation": 0.5
+					}
+					
+				},
+				{
+					"items": "minecraft:ghast_tear",
+					"properties": {
+						"eat_seconds": 0.4,
+						"nutrition": 8,
+						"saturation": 3.0
+					}
+					
+				},
+				{
+					"items": "minecraft:phantom_membrane",
+					"properties": {
+						"eat_seconds": 0.8,
+						"nutrition": 8,
+						"saturation": 3.0
+					}
+					
+				},
+				{
+					"items": "minecraft:glowstone_dust",
+					"properties": {
+						"eat_seconds": 0.4,
+						"nutrition": 2,
+						"saturation": 0.5
+					}
+					
+				},
+				{
+					"items": "minecraft:echo_shard",
+					"properties": {
+						"eat_seconds": 0.8,
+						"nutrition": 12,
+						"saturation": 6.0
+					}
+					
+				},
+				{
+					"items": "dragonsurvival:double_quartz",
+					"properties": {
+						"eat_seconds": 1.5,
+						"nutrition": 10,
+						"saturation": 4.0
+					}
+					
+				}		
+			]
+		}
+	}
+}

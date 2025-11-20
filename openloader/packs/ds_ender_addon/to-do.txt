@@ -1,0 +1,47 @@
+
+graphics:
+- make cast bar better
+- brighter mana color
+- finish animating, obviously:
+    - sit
+    - sleep_left
+    - fly_spin
+    - fly_land_end
+    - use_item_right
+    - use_item_left
+    - eat_item_right
+    - eat_item_left
+    - swim
+    - swim_fast
+    - run
+    - sneak_walk
+    - dig
+    - dig_sneak
+    - jump
+    - climbing_up
+    - climbing_down
+    - continuous_1 (head rotation X)
+    - continuous_2 (head rotation Y)
+    - continuous_3 (tail physics)
+- implement some skin editior options
+- make like 10-20 emotes, most importantly:
+    - rest
+    - sleep_right
+    - sit
+    - leaning on wall
+    - vibing
+    - laying on backpacks
+- fix wing model texture
+- add some icon for rejuvenate ability
+- test sophiscated backpacks and other players mounting
+- remove aura particles from crystal heal 
+
+gameplay:
+- rename "conjure egg" to "unstable clone" and make it faster, consume less xp but take 2 crystals. 
+    Make it grant dragon loot from other mods:
+    - draconic evolution
+    - quark
+    - dragon egg (vanilla)
+- balancing i guess
+- set up some attributes for growth stages
+- perhaps simplify some abilities

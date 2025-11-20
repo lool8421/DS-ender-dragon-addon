@@ -1,0 +1,1 @@
+execute if predicate {"condition":"minecraft:random_chance","chance":0.05} if items entity @s weapon minecraft:glass_bottle run function ds_ender_dragon_addon:breath/bottle-breath

@@ -1,0 +1,1 @@
+$execute anchored eyes run summon minecraft:dragon_fireball ^ ^ ^1 {Tags:['dseda_lifespan','dseda_newball'],Motion:[$(dx)d,$(dy)d,$(dz)d],Passengers:[{id:"minecraft:marker",Tags:['dseda_lifespan','dseda_fireball_dmg'],data:{dseda_tags:{level:$(level),multiplier:$(multiplier)}}}]}

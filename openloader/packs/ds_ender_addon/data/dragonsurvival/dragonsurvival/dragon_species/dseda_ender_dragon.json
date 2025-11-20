@@ -1,0 +1,42 @@
+{
+	"misc_resources": {
+		"ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/dseda_ender_dragon/cast_bar.png",
+		"altar_banner": "dragonsurvival:textures/gui/custom/altar/dseda_ender_dragon/altar_icon.png",
+		"food_sprites": "dragonsurvival:textures/gui/custom/food_icons/dseda_ender_dragon_food_icons.png",
+		"food_tooltip": {
+			"nutrition_icon": "\\uEDA1",
+			"saturation_icon": "\\uEDA2"
+		},
+		"growth_crystal": {
+			"empty": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/point_main.png",
+			"full": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/point_hover.png"
+		},
+		"growth_left_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/left_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/left_arrow_main.png"
+		},
+		"growth_right_arrow": {
+			"hover_icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/right_arrow_hover.png",
+			"icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/right_arrow_main.png"
+		},
+		"mana_sprites": {
+			"empty": "dragonsurvival:textures/gui/custom/mana_icons/dseda_ender_dragon/empty.png",
+			"full": "dragonsurvival:textures/gui/custom/mana_icons/dseda_ender_dragon/full.png",
+			"recovery": "dragonsurvival:textures/gui/custom/mana_icons/dseda_ender_dragon/recovery.png",
+			"reserved": "dragonsurvival:textures/gui/custom/mana_icons/dseda_ender_dragon/reserved.png"
+		},
+		"primary_color": "#E400FF",
+		"secondary_color": "#B100DD"
+	},
+	"penalties": "#dragonsurvival:dseda_ender_dragon",
+	"abilities": "#dragonsurvival:dseda_ender_dragon",
+	"bodies": [
+		"dragonsurvival:dseda_ender_dragon_body"
+	],
+	"custom_stage_progression": [
+		"dragonsurvival:dseda_ender_dragon_newborn",
+		"dragonsurvival:dseda_ender_dragon_young",
+		"dragonsurvival:dseda_ender_dragon_adult",
+		"dragonsurvival:dseda_ender_dragon_ancient"
+	]
+}

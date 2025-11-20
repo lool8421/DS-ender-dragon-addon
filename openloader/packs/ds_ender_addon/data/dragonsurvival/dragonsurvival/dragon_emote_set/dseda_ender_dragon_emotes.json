@@ -1,0 +1,15 @@
+{
+  "emotes": [
+    {
+      "animation_key": "emote_angry",
+      "blend": true,
+      "can_move": true
+    },
+    {
+      "animation_key": "casting",
+      "blend": true,
+      "can_move": true
+    }
+
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:experience_points",
+    "maximum_level": 50,
+    "experience_cost": {
+      "type": "minecraft:levels_squared",
+      "added": 5
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:run_function",
+              "function": "ds_ender_dragon_addon:crystal/rejuvenate-init"
+            }
+          ],
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{OnGround:1b}"
+            }
+          },
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 100
+    },
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dseda_rejuvenate_mana",
+                    "should_remove_automatically": true,
+                    "early_removal_condition": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{OnGround:0b}"
+                      }
+                    },
+                    "is_hidden": false
+                  },
+                  "modifiers": [
+                    {
+                      "attribute": "dragonsurvival:mana_regeneration",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.025,
+                        "per_level_above_first": 0.025
+                      },
+                      "operation": "add_multiplied_total"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "target_conditions": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{OnGround:1b}"
+            }
+          },
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 1
+    }
+  ],
+  "can_be_manually_disabled": true,
+  "icon": {
+    "texture_entries": [
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_0"
+      },      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_1"
+      },      {
+        "from_level": 10,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_2"
+      },      {
+        "from_level": 20,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_3"
+      },      {
+        "from_level": 30,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_4"
+      },      {
+        "from_level": 40,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_5"
+      },      {
+        "from_level": 50,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_6"
+      }
+    ]
+  }
+}

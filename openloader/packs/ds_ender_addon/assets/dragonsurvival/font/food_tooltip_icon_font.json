@@ -1,0 +1,21 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "\u200c": 0
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "dragonsurvival:icons/dseda_tooltip_food_icons.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": [
+        "\uEDA1",
+        "\uEDA2"
+      ]
+    }
+  ]
+}

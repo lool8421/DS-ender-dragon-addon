@@ -1,0 +1,94 @@
+{
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
+  "upgrade": {
+    "upgrade_type": "dragonsurvival:experience_points",
+    "maximum_level": 50,
+    "experience_cost": {
+      "type": "minecraft:levels_squared",
+      "added": 5
+    }
+  },
+  "actions": [
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:modifier",
+              "modifiers": [
+                {
+                  "base": {
+                    "id": "dseda_scales",
+                    "is_hidden": true
+                  },
+                  "modifiers": [
+                    {
+                      "attribute": "minecraft:generic.max_health",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 1.2,
+                        "per_level_above_first": 1.2
+                      },
+                      "operation": "add_value"
+                    },
+                    {
+                      "attribute": "minecraft:generic.luck",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.1,
+                        "per_level_above_first": 0.1
+                      },
+                      "operation": "add_value"
+                    },
+                    {
+                      "attribute": "dragonsurvival:dragon_ability_damage",
+                      "amount": {
+                        "type": "minecraft:linear",
+                        "base": 0.005,
+                        "per_level_above_first": 0.005
+                      },
+                      "operation": "add_value"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 1
+    }
+  ],
+  "can_be_manually_disabled": true,
+  "icon": {
+    "texture_entries": [
+        
+      {
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enchanted_scales_0"
+      },      {
+        "from_level": 1,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enchanted_scales_1"
+      },      {
+        "from_level": 10,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enchanted_scales_2"
+      },      {
+        "from_level": 20,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enchanted_scales_3"
+      },      {
+        "from_level": 30,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enchanted_scales_4"
+      },      {
+        "from_level": 40,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enchanted_scales_5"
+      },      {
+        "from_level": 50,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enchanted_scales_6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"values": {
+		"dragonsurvival:dseda_ender_dragon_body": {
+			"neoforge:conditions": [
+				{
+					"type": "dragonsurvival:registered",
+					"registry": "dragonsurvival:dragon_body",
+					"value": "dragonsurvival:dseda_ender_dragon_body"
+				}
+			],
+			"dragonsurvival:dseda_ender_dragon": "dragonsurvival:textures/gui/custom/body/center/dseda_ender_dragon.png"
+		}
+	}
+}

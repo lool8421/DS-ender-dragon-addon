@@ -1,3 +1,0 @@
-if you want to alter the way the ender dragon fireball or inspiration ability works, it has been manually scripted in the ds_ender_dragon_addon folder (datapack namespace)
-
-(it's supposed to use vanilla mechanics but this mod only allows custom models smh)
