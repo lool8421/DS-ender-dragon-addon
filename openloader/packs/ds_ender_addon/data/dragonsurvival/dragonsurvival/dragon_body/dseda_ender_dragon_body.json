@@ -43,8 +43,8 @@
         ]
     },
     "scaling_proportions": {
-        "eye_height": 4.5,
-        "height": 4.0,
-        "width": 1.0
+        "eye_height": 1.6,
+        "height": 1.8,
+        "width": 0.6
     }
 }

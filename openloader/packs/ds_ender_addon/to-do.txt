@@ -3,45 +3,37 @@ graphics:
 - make cast bar better
 - brighter mana color
 - finish animating, obviously:
-    - sit
-    - sleep_left
-    - fly_spin
-    - fly_land_end
-    - use_item_right
-    - use_item_left
-    - eat_item_right
-    - eat_item_left
-    - swim
-    - swim_fast
-    - run
-    - sneak_walk
-    - dig
-    - dig_sneak
-    - jump
-    - climbing_up
-    - climbing_down
-    - continuous_1 (head rotation X)
-    - continuous_2 (head rotation Y)
-    - continuous_3 (tail physics)
+    - breath
+    - tail can be more wobbly in one of the continuous animations
 - implement some skin editior options
 - make like 10-20 emotes, most importantly:
-    - rest
-    - sleep_right
-    - sit
     - leaning on wall
     - vibing
-    - laying on backpacks
-- fix wing model texture
-- add some icon for rejuvenate ability
+    - "battle scream" thing
+    - laying on back
+    - spinning on back (slow, fast and absurd)
+- fix wing and stage icon texture
+- add some icon for rejuvenate ability effect other than the default one (prob just an end crystal)
 - test sophiscated backpacks and other players mounting
 - remove aura particles from crystal heal 
+- make enchanted scales 3-4 icon shifted by 1-2 pixels
+- reduce saturation/increase brightness of the last level of rejuvenate icon
 
 gameplay:
-- rename "conjure egg" to "unstable clone" and make it faster, consume less xp but take 2 crystals. 
-    Make it grant dragon loot from other mods:
+- rename "conjure egg" to "conjure-self", make it consume only 10 levels and make it faster 
+- make "conjure-self" a "ritual ability"
+- add "purification ritual" as an ability - remove dragon-related debuffs from nearby players, including ender dragon's curse
+- ritual abilities require 4 crystals in the 20 block radius to work, otherwise casting will fail
+    Make "conjure-self" ability grant dragon loot from other mods:
     - draconic evolution
     - quark
     - dragon egg (vanilla)
+
 - balancing i guess
-- set up some attributes for growth stages
-- perhaps simplify some abilities
+- make crystal charge grant mana instead of consuming it, but reduce mana all over the place, increase base mana
+- set up some attributes for growth stages and the body itself
+- perhaps simplify some attributes
+- make dragon fireball have an assigned owner
+- and don't damage mobs that have the same owner as the fireball
+- also make all damaged players gain dragon breath when holding a bottle
+- potentially make endermen truly not get mad when stared at with java stuff, alternatively give some "protective aura" against their anger

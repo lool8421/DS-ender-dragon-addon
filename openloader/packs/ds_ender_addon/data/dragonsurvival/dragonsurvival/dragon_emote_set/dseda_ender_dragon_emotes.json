@@ -6,10 +6,69 @@
       "can_move": true
     },
     {
-      "animation_key": "casting",
-      "blend": true,
-      "can_move": true
+      "animation_key": "casting_start",
+      "blend": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "can_move": false
+    },
+    {
+      "animation_key": "casting_loop",
+      "blend": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "can_move": false,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_sit",
+      "blend": false,
+      "can_move": false,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_lay_down",
+      "blend": false,
+      "can_move": false,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_sleep_left",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_sleep_right",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_spinning_on_back",
+      "blend": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "can_move": false,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_spinning_on_back_fast",
+      "blend": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "can_move": false,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_spinning_on_back_absurd",
+      "blend": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "can_move": false,
+      "loops": true
     }
-
   ]
 }
