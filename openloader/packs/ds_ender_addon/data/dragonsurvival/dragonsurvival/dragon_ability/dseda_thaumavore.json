@@ -20,7 +20,17 @@
                   "modifiers": [
                     {
                       "attribute": "dragonsurvival:flight_stamina",
-                      "amount": 1.5,
+                      "amount": 1,
+                      "operation": "add_multiplied_total"
+                    },
+                    {
+                      "attribute": "dragonsurvival:experience",
+                      "amount": 0.25,
+                      "operation": "add_multiplied_total"
+                    },
+                    {
+                      "attribute": "dragonsurvival:mana_regeneration",
+                      "amount": 0.25,
                       "operation": "add_multiplied_total"
                     }
                   ]

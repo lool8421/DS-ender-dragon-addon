@@ -10,7 +10,7 @@
     },
     "animations": {
         "start_and_charging": {
-        "animation_key": "shoot_fireball",
+        "animation_key": "ability_shoot_fireball",
         "layer": "BREATH",
         "transition_length": 0,
         "locks_neck": false,

@@ -1,13 +1,13 @@
 {
   "activation": {
     "activation_type": "dragonsurvival:channeled",
-    "initial_mana_cost": 1,
+    "initial_mana_cost": 2,
     "continuous_mana_cost": {
       "type": "ticking",
-      "amount": 0.04
+      "amount": 0
     },
-    "cast_time": 60,
-    "cooldown": 300
+    "cast_time": 30,
+    "cooldown": 200
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:experience_levels",
@@ -38,7 +38,11 @@
           "targeting_mode": "allies_and_self"
         }
       },
-      "trigger_rate": 10
+      "trigger_rate": {
+        "type": "minecraft:linear",
+        "base": 27,
+        "per_level_above_first": -3
+      }
     }
   ],
   "can_be_manually_disabled": false,
@@ -47,19 +51,24 @@
       {
         "from_level": 0,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/crystal_charge_0"
-      },      {
+      },
+      {
         "from_level": 1,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/crystal_charge_1"
-      },      {
+      },
+      {
         "from_level": 2,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/crystal_charge_2"
-      },      {
+      },
+      {
         "from_level": 3,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/crystal_charge_3"
-      },      {
+      },
+      {
         "from_level": 4,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/crystal_charge_4"
-      },      {
+      },
+      {
         "from_level": 5,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/crystal_charge_5"
       }

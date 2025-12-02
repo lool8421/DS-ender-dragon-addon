@@ -8,40 +8,40 @@
 					"value": "dragonsurvival:dseda_ender_dragon"
 				}
 			],
-			"dragonsurvival:adult": {
+			"dragonsurvival:dseda_ender_dragon_adult": {
 				"default_skin": {
-					"glow_skin": "dragonsurvival:textures/dragon/forest_dragon/adult_glow.png",
-					"skin": "dragonsurvival:textures/dragon/forest_dragon/adult.png"
+					"glow_skin": "dragonsurvival:textures/dragon/dseda_ender_dragon/dragon_base_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dseda_ender_dragon/dragon_base.png"
 				},
 				"growth_icon": {
 					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/adult_stage_hover.png",
 					"icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/adult_stage_main.png"
 				}
 			},
-			"dragonsurvival:ancient": {
+			"dragonsurvival:dseda_ender_dragon_ancient": {
 				"default_skin": {
-					"glow_skin": "dragonsurvival:textures/dragon/forest_dragon/ancient_glow.png",
-					"skin": "dragonsurvival:textures/dragon/forest_dragon/ancient.png"
+					"glow_skin": "dragonsurvival:textures/dragon/dseda_ender_dragon/dragon_base_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dseda_ender_dragon/dragon_base.png"
 				},
 				"growth_icon": {
 					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/ancient_stage_hover.png",
 					"icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/ancient_stage_main.png"
 				}
 			},
-			"dragonsurvival:newborn": {
+			"dragonsurvival:dseda_ender_dragon_newborn": {
 				"default_skin": {
-					"glow_skin": "dragonsurvival:textures/dragon/forest_dragon/newborn_glow.png",
-					"skin": "dragonsurvival:textures/dragon/forest_dragon/newborn.png"
+					"glow_skin": "dragonsurvival:textures/dragon/dseda_ender_dragon/dragon_base_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dseda_ender_dragon/dragon_base.png"
 				},
 				"growth_icon": {
 					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/newborn_stage_hover.png",
 					"icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/newborn_stage_main.png"
 				}
 			},
-			"dragonsurvival:young": {
+			"dragonsurvival:dseda_ender_dragon_young": {
 				"default_skin": {
-					"glow_skin": "dragonsurvival:textures/dragon/forest_dragon/young_glow.png",
-					"skin": "dragonsurvival:textures/dragon/forest_dragon/young.png"
+					"glow_skin": "dragonsurvival:textures/dragon/dseda_ender_dragon/dragon_base_glow.png",
+					"skin": "dragonsurvival:textures/dragon/dseda_ender_dragon/dragon_base.png"
 				},
 				"growth_icon": {
 					"hover_icon": "dragonsurvival:textures/gui/custom/stage/dseda_ender_dragon/young_stage_hover.png",

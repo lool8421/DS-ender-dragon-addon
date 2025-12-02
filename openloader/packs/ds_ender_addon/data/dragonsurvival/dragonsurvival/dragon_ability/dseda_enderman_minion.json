@@ -2,13 +2,29 @@
   "activation": {
     "activation_type": "dragonsurvival:simple",
     "initial_mana_cost": {
-                "type": "minecraft:linear",
-                "base": 3,
-                "per_level_above_first": 3
-              },
+      "type": "minecraft:linear",
+      "base": 3,
+      "per_level_above_first": 3
+    },
     "cast_time": 100,
-    "cooldown": 2400,
-    "can_move_while_casting": false
+    "cooldown": 6000,
+    "can_move_while_casting": false,
+    "animations": {
+      "start_and_charging": {
+        "starting_animation_key": "casting_loop",
+        "looping_animation_key": "casting_start",
+        "layer": "BASE",
+        "locks_neck": false,
+        "locks_tail": false
+      },
+      "end": {
+        "animation_key": "casting_end",
+        "layer": "BASE",
+        "transition_length": 0,
+        "locks_neck": true,
+        "locks_tail": true
+      }
+    }
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:experience_levels",
@@ -25,6 +41,19 @@
       "fallback": 25
     }
   },
+  "usage_blocked": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "dseda_nearby_crystals": {
+          "min": 4,
+          "max": 999999
+        }
+      }
+    }
+  },
   "actions": [
     {
       "target_selection": {
@@ -35,7 +64,7 @@
               "effect_type": "dragonsurvival:summon_entity",
               "base": {
                 "id": "dseda_enderman_minion",
-                "duration": 2400,
+                "duration": 72000,
                 "should_remove_automatically": false,
                 "is_hidden": false
               },
@@ -47,30 +76,54 @@
               },
               "attribute_scales": [
                 {
-                  "attributes": "minecraft:generic.max_health",
+                  "attributes": "minecraft:generic.armor",
                   "scale": {
                     "type": "minecraft:linear",
-                    "base": -0.25,
-                    "per_level_above_first": 0.125
+                    "base": 0,
+                    "per_level_above_first": 4
                   }
                 },
                 {
                   "attributes": "minecraft:generic.attack_damage",
                   "scale": {
                     "type": "minecraft:linear",
-                    "base": -0.25,
+                    "base": -0.5,
                     "per_level_above_first": 0.125
                   }
                 }
               ],
+              "nbt": {
+                "active_effects": [
+                  {
+                    "duration": -1,
+                    "id": "minecraft:regeneration",
+                    "show_particles": false
+                  }
+                ]
+              },
               "is_allied": true
             }
           ],
           "targeting_mode": "all"
         },
-        "radius": 10.0
+        "radius": 10
       },
-      "trigger_rate": 1.0
+      "trigger_rate": 1
+    },
+    {
+      "target_selection": {
+        "target_type": "dragonsurvival:self",
+        "applied_effects": {
+          "entity_effect": [
+            {
+              "effect_type": "dragonsurvival:run_function",
+              "function": "ds_ender_dragon_addon:crystal/ritual-abilities/animate-start"
+            }
+          ],
+          "targeting_mode": "all"
+        }
+      },
+      "trigger_rate": 0
     }
   ],
   "can_be_manually_disabled": false,
@@ -79,19 +132,24 @@
       {
         "from_level": 0,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enderman_minion_0"
-      },      {
+      },
+      {
         "from_level": 1,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enderman_minion_1"
-      },      {
+      },
+      {
         "from_level": 2,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enderman_minion_2"
-      },      {
+      },
+      {
         "from_level": 3,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enderman_minion_3"
-      },      {
+      },
+      {
         "from_level": 4,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enderman_minion_4"
-      },      {
+      },
+      {
         "from_level": 5,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/enderman_minion_5"
       }

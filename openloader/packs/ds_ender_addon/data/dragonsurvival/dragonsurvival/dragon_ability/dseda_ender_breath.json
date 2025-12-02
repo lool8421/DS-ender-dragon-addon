@@ -13,7 +13,15 @@
       "looping": "dragonsurvival:forest_breath_loop",
       "end": "dragonsurvival:forest_breath_end"
     },
-    "animations": {}
+        "animations": {
+        "looping": {
+        "animation_key": "ability_breath",
+        "layer": "BREATH",
+        "transition_length": 0.5,
+        "locks_neck": false,
+        "locks_tail": false
+        }
+      }
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:experience_levels",

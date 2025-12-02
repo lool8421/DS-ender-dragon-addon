@@ -4,7 +4,8 @@
     "dragonsurvival:dseda_ender_dragon_fireball",
     "dragonsurvival:dseda_crystal_charge",
     "dragonsurvival:dseda_enderman_minion",
-    "dragonsurvival:dseda_conjure_egg",
+    "dragonsurvival:dseda_conjure_self",
+    "dragonsurvival:dseda_purification_ritual",
     "dragonsurvival:dseda_ender_wisdom",
     "dragonsurvival:dseda_rejuvenate",
     "dragonsurvival:dseda_ender_agility",
@@ -13,5 +14,6 @@
     "dragonsurvival:dseda_ender_wings",
     "dragonsurvival:dseda_physical_weakness",
     "dragonsurvival:dseda_thaumavore"
+
   ]
 }

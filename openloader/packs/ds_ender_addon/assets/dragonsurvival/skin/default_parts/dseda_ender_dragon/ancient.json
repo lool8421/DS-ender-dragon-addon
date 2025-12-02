@@ -3,6 +3,12 @@
 	"stage": "dragonsurvival:dseda_ender_dragon_ancient",
 	"model": "dragonsurvival:dseda_ender_dragon_model",
 	"parts": {
-		"base": "dseda_ender_dragon_base_1"
+		"base": "dseda_ender_dragon_base_1",
+		"eyes": "dseda_ender_dragon_eyes_1",
+		"teeth": "dseda_ender_dragon_teeth_1",
+		"horns": "dseda_ender_dragon_horns_1",
+		"magic": "dseda_ender_dragon_magic_1",
+		"spikes": "dseda_ender_dragon_spikes_1",
+		"extra": "dseda_ender_dragon_extra_wings"
 	}
 }

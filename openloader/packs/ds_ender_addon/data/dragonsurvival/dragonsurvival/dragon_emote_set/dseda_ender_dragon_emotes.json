@@ -47,6 +47,13 @@
       "loops": true
     },
     {
+      "animation_key": "emote_laying_on_back",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "loops": true
+    },
+    {
       "animation_key": "emote_spinning_on_back",
       "blend": false,
       "locks_head": true,
@@ -69,6 +76,15 @@
       "locks_tail": true,
       "can_move": false,
       "loops": true
+    },
+    {
+      "animation_key": "emote_leaning_on_wall",
+      "blend": false,
+      "locks_head": false,
+      "locks_tail": true,
+      "can_move": false,
+      "loops": true
     }
+
   ]
 }

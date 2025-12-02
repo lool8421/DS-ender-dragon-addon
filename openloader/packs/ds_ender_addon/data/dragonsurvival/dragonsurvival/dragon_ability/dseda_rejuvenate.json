@@ -31,7 +31,11 @@
           "targeting_mode": "all"
         }
       },
-      "trigger_rate": 100
+      "trigger_rate": {
+        "type": "minecraft:linear",
+        "base": 198,
+        "per_level_above_first": -2
+      }
     },
     {
       "target_selection": {
@@ -52,6 +56,7 @@
                         "nbt": "{OnGround:0b}"
                       }
                     },
+                    "custom_icon": "minecraft:textures/item/end_crystal.png",
                     "is_hidden": false
                   },
                   "modifiers": [
@@ -59,8 +64,8 @@
                       "attribute": "dragonsurvival:mana_regeneration",
                       "amount": {
                         "type": "minecraft:linear",
-                        "base": 0.025,
-                        "per_level_above_first": 0.025
+                        "base": 0.015,
+                        "per_level_above_first": 0.015
                       },
                       "operation": "add_multiplied_total"
                     }
@@ -88,22 +93,28 @@
       {
         "from_level": 0,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_0"
-      },      {
+      },
+      {
         "from_level": 1,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_1"
-      },      {
+      },
+      {
         "from_level": 10,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_2"
-      },      {
+      },
+      {
         "from_level": 20,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_3"
-      },      {
+      },
+      {
         "from_level": 30,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_4"
-      },      {
+      },
+      {
         "from_level": 40,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_5"
-      },      {
+      },
+      {
         "from_level": 50,
         "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/rejuvenate_6"
       }
