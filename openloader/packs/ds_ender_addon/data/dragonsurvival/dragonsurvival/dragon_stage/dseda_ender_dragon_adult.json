@@ -1,7 +1,7 @@
 {
   "growth_items": [
     {
-      "growth_in_ticks": 72000,
+      "growth_in_ticks": 24000,
       "items": "dragonsurvival:elder_dragon_heart"
     },
     {
@@ -13,23 +13,114 @@
       "items": "dragonsurvival:star_heart"
     }
   ],
+
   "growth_range": {
     "max": 60.0,
     "min": 40.0
   },
+
   "is_default": false,
+
+  "modifiers": [
+    {
+      "amount": 0.5,
+      "attribute": "minecraft:generic.step_height",
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:player.block_break_speed",
+      "amount": -0.1,
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "minecraft:generic.scale",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.0,
+        "per_level_above_first": 0.05
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 10,
+        "per_level_above_first": 0.5
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "dragonsurvival:mana_regeneration",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.3,
+        "per_level_above_first": 0.01
+      },
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "dragonsurvival:experience",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.3,
+        "per_level_above_first": 0.01
+      },
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "dragonsurvival:dragon_breath_range",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 6,
+        "per_level_above_first": 0.2
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:player.entity_interaction_range",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0,
+        "per_level_above_first": 0.1
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:player.block_interaction_range",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0,
+        "per_level_above_first": 0.1
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.jump_strength",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.1,
+        "per_level_above_first": 0.006
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0,
+        "per_level_above_first": 0.01
+      },
+      "operation": "add_multiplied_base"
+    }
+  ],
+
   "is_natural_growth_stopped": {
     "type_specific": {
       "type": "dragonsurvival:dragon_predicate",
       "is_growth_stopped": true
     }
   },
-  "modifiers": [
-    {
-      "amount": 0.5,
-      "attribute": "minecraft:generic.step_height",
-      "operation": "add_value"
-    }
-  ],
-  "ticks_until_grown": 1500000
+
+  "ticks_until_grown": 1728000
 }

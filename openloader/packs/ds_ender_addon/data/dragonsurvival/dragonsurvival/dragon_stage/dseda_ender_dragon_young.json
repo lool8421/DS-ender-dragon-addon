@@ -1,7 +1,7 @@
 {
   "growth_items": [
     {
-      "growth_in_ticks": 72000,
+      "growth_in_ticks": 48000,
       "items": "dragonsurvival:elder_dragon_heart"
     },
     {
@@ -11,25 +11,74 @@
     {
       "growth_in_ticks": 0,
       "items": "dragonsurvival:star_heart"
+    },
+    {
+      "items": "dragonsurvival:weak_dragon_heart",
+      "growth_in_ticks": 12000
     }
   ],
   "growth_range": {
-    "max": 40.0,
-    "min": 25.0
+    "max": 40,
+    "min": 25
   },
   "is_default": false,
-  "is_natural_growth_stopped": {
-    "type_specific": {
-      "type": "dragonsurvival:dragon_predicate",
-      "is_growth_stopped": true
-    }
-  },
   "modifiers": [
     {
-      "amount": 0.5,
-      "attribute": "minecraft:generic.step_height",
+      "attribute": "minecraft:player.block_break_speed",
+      "amount": -0.2,
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "minecraft:generic.scale",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": -0.5,
+        "per_level_above_first": 0.033
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0,
+        "per_level_above_first": 0.66667
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "dragonsurvival:mana_regeneration",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.15,
+        "per_level_above_first": 0.01
+      },
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "dragonsurvival:experience",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.15,
+        "per_level_above_first": 0.01
+      },
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "dragonsurvival:dragon_breath_range",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 3.0,
+        "per_level_above_first": 0.2
+      },
       "operation": "add_value"
     }
-    ],
-  "ticks_until_grown": 500000
+  ],
+    "is_natural_growth_stopped": {
+      "type_specific": {
+        "type": "dragonsurvival:dragon_predicate",
+        "is_growth_stopped": true
+      }
+  },
+  "ticks_until_grown": 864000
 }

@@ -30,5 +30,7 @@
 "dragon_ability.dragonsurvival.dseda_conjure_self.desc": "§7■ Allows you to create items that would normally be obtainable by fighting the ender dragon. \n\n§7■ Ritual ability - Requires presence of 4 end crystals in a 20 block radius, additionally you must be level 100 and hold an end crystal in both hands for it to work. \n\n§7■ Conjuring items will consume 2 end crystals and 10 experience levels upon activation.",
 "dragon_ability.dragonsurvival.dseda_purification_ritual": "Purification Ritual",
 "dragon_ability.dragonsurvival.dseda_purification_ritual.desc": "§7■ Allows you to remove all dragon-specific negative effects from other players in a 10 block radius including curses. Can be used even when affected by disabled magic.\n\n§7■ Ritual ability - Requires presence of 4 end crystals in a 20 block radius.",
+"dragon_ability.dragonsurvival.dseda_gatekeeper": "Ender gatekeeper",
+"dragon_ability.dragonsurvival.dseda_gatekeeper.desc": "§7■ Can summon a temporary end portal 1 block in front of you.\n\n§7■ Ritual ability - Requires presence of 4 end crystals in a 20 block radius. Will fail to cast if there's an obstructed 5x5 area in front of you.",
 "tag.damage_type.minecraft.is_projectile": "Projectiles"
 }

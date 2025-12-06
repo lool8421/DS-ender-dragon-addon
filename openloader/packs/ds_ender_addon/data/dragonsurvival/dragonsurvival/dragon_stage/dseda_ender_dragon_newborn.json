@@ -11,19 +11,79 @@
     {
       "growth_in_ticks": 0,
       "items": "dragonsurvival:star_heart"
+    },
+    {
+      "items": "dragonsurvival:weak_dragon_heart",
+      "growth_in_ticks": 24000
+    },
+    {
+      "items": "dragonsurvival:heart_element",
+      "growth_in_ticks": 6000
     }
   ],
   "growth_range": {
-    "max": 25.0,
-    "min": 14.0
+    "max": 25,
+    "min": 10
   },
   "is_default": false,
-  "is_natural_growth_stopped": {
-    "type_specific": {
-      "type": "dragonsurvival:dragon_predicate",
-      "is_growth_stopped": true
+  "modifiers": [
+    {
+      "attribute": "minecraft:player.block_break_speed",
+      "amount": -0.3,
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "minecraft:generic.scale",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": -0.75,
+        "per_level_above_first": 0.0166667
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": -7.5,
+        "per_level_above_first": 0.5
+      },
+      "operation": "add_value"
+    },
+    {
+      "attribute": "dragonsurvival:mana_regeneration",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.0,
+        "per_level_above_first": 0.01
+      },
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "dragonsurvival:experience",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.0,
+        "per_level_above_first": 0.01
+      },
+      "operation": "add_multiplied_total"
+    },
+    {
+      "attribute": "dragonsurvival:dragon_breath_range",
+      "amount": {
+        "type": "minecraft:linear",
+        "base": 0.0,
+        "per_level_above_first": 0.2
+      },
+      "operation": "add_value"
     }
+
+  ],
+  "is_natural_growth_stopped": {
+      "type_specific": {
+        "type": "dragonsurvival:dragon_predicate",
+        "is_growth_stopped": true
+      }
   },
-  "modifiers": [],
-  "ticks_until_grown": 1000000
+  "ticks_until_grown": 432000
 }

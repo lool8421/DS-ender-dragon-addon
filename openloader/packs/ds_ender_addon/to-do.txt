@@ -11,7 +11,7 @@ graphics:
 - make like 10-20 emotes, most importantly:
     - vibing
 - fix wing and stage icon texture
-- add some icon for rejuvenate ability effect other than the default one (prob just an end crystal)
+
 - test sophiscated backpacks and other players mounting
 
 - make enchanted scales 3-4 icon shifted by 1-2 pixels
@@ -22,15 +22,9 @@ graphics:
 
 gameplay:
 
-- ritual abilities (require 4 end crystals within 20 blocks to work):
 
-- add "purification" as a ritual ability - remove dragon-related debuffs from nearby players, including ender dragon's curse
-- add a ritual ability to open a portal into the end dimension and back
 
 - make abilities dispellable by applying "magic disabled" effect
 
-- balancing i guess
-- make crystal charge grant mana instead of consuming it, but reduce mana all over the place, increase base mana
-- set up some attributes for growth stages and the body itself
-- perhaps simplify some attributes
-- also make all damaged players gain dragon breath when holding a bottle
+- make end spawn platform more specific
+- make the player scared of beds?

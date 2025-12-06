@@ -24,11 +24,6 @@
                       "operation": "add_multiplied_total"
                     },
                     {
-                      "attribute": "minecraft:player.block_break_speed",
-                      "amount": -0.25,
-                      "operation": "add_multiplied_total"
-                    },
-                    {
                       "attribute": "minecraft:generic.attack_knockback",
                       "amount": -0.5,
                       "operation": "add_multiplied_total"

@@ -29,7 +29,7 @@
 						}
 					},
 					"position": {
-						"vector": [0, 2.4, 0]
+						"vector": [-0.5, 2.4, 0]
 					}
 				},
 				"Rwing2": {
@@ -70,7 +70,7 @@
 						}
 					},
 					"position": {
-						"vector": [0, 2.4, 0]
+						"vector": [0.5, 2.4, 0]
 					}
 				},
 				"Lwing2": {

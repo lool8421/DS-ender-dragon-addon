@@ -7,7 +7,7 @@
       "per_level_above_first": 3
     },
     "cast_time": 100,
-    "cooldown": 6000,
+    "cooldown": 12000,
     "can_move_while_casting": false,
     "animations": {
       "start_and_charging": {

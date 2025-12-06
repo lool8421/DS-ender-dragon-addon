@@ -3,14 +3,14 @@
     "model": "dragonsurvival:dseda_ender_dragon_model",
     "backpack_offset": {
         "scale": [
-            0.9,
-            0.9,
-            0.9
+            0.7,
+            0.7,
+            0.7
         ]
     },
     "bettercombat_weapon_offset": -3.0,
     "can_hide_wings": false,
-    "crouch_height_ratio": 0.83333333,
+    "crouch_height_ratio": 0.7,
     "default_icon": "dragonsurvival:textures/gui/custom/body/center/dseda_ender_dragon.png",
     "emotes": "dragonsurvival:dseda_ender_dragon_emotes",
     "is_default": false,
@@ -19,6 +19,11 @@
             "amount": 0.15,
             "attribute": "dragonsurvival:flight_speed",
             "operation": "add_multiplied_total"
+        },
+        {
+            "amount": 2,
+            "attribute": "dragonsurvival:mana",
+            "operation": "add_value"
         }
     ],
     "texture_size": {
@@ -43,8 +48,8 @@
         ]
     },
     "scaling_proportions": {
-        "eye_height": 1.4,
-        "height": 1.6,
-        "width": 0.6
+        "eye_height": 1.7,
+        "height": 1.85,
+        "width": 0.5
     }
 }
