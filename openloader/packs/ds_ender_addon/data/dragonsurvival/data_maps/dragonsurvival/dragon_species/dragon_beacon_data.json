@@ -10,13 +10,14 @@
 			],
 			"effects": [
 				{
-					"duration": 100,
+					"duration": 900,
 					"effect": "minecraft:regeneration",
-					"amplifier": 1
+					"amplifier": 0
 				},
 				{
-					"duration": 100,
-					"effect": "minecraft:saturation"
+					"duration": 900,
+					"effect": "minecraft:haste",
+					"amplifier": 2
 				}
 			],
 			"payment_data": {

@@ -105,6 +105,11 @@
       "operation": "add_value"
     },
     {
+      "attribute": "minecraft:generic.safe_fall_distance",
+      "amount": 2,
+      "operation": "add_value"
+    },
+    {
       "attribute": "minecraft:generic.movement_speed",
       "amount": {
         "type": "minecraft:linear",

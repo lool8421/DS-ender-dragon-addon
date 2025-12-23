@@ -1,6 +1,6 @@
-fill ~-2 ~ ~-1 ~2 ~ ~1 bedrock
-fill ~-1 ~ ~-2 ~1 ~ ~2 bedrock
-fill ~1 ~ ~1 ~-1 ~ ~-1 end_portal
+fill ~-2 ~ ~-1 ~2 ~ ~1 bedrock destroy
+fill ~-1 ~ ~-2 ~1 ~ ~2 bedrock destroy
+fill ~1 ~ ~1 ~-1 ~ ~-1 end_portal 
 scoreboard players set @s dseda_lifespan 31
 
 playsound minecraft:block.end_portal.spawn block @a ~ ~ ~ 1 

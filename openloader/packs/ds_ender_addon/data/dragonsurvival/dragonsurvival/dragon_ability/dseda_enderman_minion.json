@@ -42,17 +42,40 @@
     }
   },
   "usage_blocked": {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_scores",
-      "entity": "this",
-      "scores": {
-        "dseda_nearby_crystals": {
-          "min": 4,
-          "max": 999999
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "dseda_nearby_crystals": {
+              "min": 4,
+              "max": 999999
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "effects": {
+            "dragonsurvival:magic_disabled": {}
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "flags": {
+            "is_on_ground": false
+          }
         }
       }
-    }
+    ]
   },
   "actions": [
     {
@@ -106,7 +129,7 @@
           ],
           "targeting_mode": "all"
         },
-        "radius": 10
+        "radius": 4
       },
       "trigger_rate": 1
     },

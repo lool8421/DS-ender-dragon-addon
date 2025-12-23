@@ -1,35 +1,33 @@
 {
   "emotes": [
     {
-      "animation_key": "emote_angry",
+      "animation_key": "empty",
       "blend": true,
-      "can_move": true
-    },
-    {
-      "animation_key": "casting_start",
-      "blend": false,
-      "locks_head": true,
-      "locks_tail": true,
-      "can_move": false
-    },
-    {
-      "animation_key": "casting_loop",
-      "blend": false,
-      "locks_head": true,
-      "locks_tail": true,
-      "can_move": false,
-      "loops": true
+      "can_move": true,
+      "loops": false
     },
     {
       "animation_key": "emote_sit",
       "blend": false,
       "can_move": false,
+      "locks_head": true,
+      "locks_tail": true,
       "loops": true
     },
     {
-      "animation_key": "emote_lay_down",
-      "blend": false,
-      "can_move": false,
+      "animation_key": "emote_roar",
+      "blend": true,
+      "can_move": true,
+          "sound": {
+            "interval": 30,
+            "pitch": 1,
+            "sound_event": "minecraft:entity.ender_dragon.growl"
+          }
+    },
+    {
+      "animation_key": "emote_angry",
+      "blend": true,
+      "can_move": true,
       "loops": true
     },
     {
@@ -37,6 +35,7 @@
       "blend": false,
       "can_move": false,
       "locks_head": true,
+      "locks_tail": true,
       "loops": true
     },
     {
@@ -44,6 +43,30 @@
       "blend": false,
       "can_move": false,
       "locks_head": true,
+      "locks_tail": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_sleep_front",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_sleep_back",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_lay_down",
+      "blend": false,
+      "can_move": false,
+      "locks_tail": true,
       "loops": true
     },
     {
@@ -51,40 +74,76 @@
       "blend": false,
       "can_move": false,
       "locks_head": true,
-      "loops": true
-    },
-    {
-      "animation_key": "emote_spinning_on_back",
-      "blend": false,
-      "locks_head": true,
       "locks_tail": true,
-      "can_move": false,
-      "loops": true
-    },
-    {
-      "animation_key": "emote_spinning_on_back_fast",
-      "blend": false,
-      "locks_head": true,
-      "locks_tail": true,
-      "can_move": false,
-      "loops": true
-    },
-    {
-      "animation_key": "emote_spinning_on_back_absurd",
-      "blend": false,
-      "locks_head": true,
-      "locks_tail": true,
-      "can_move": false,
       "loops": true
     },
     {
       "animation_key": "emote_leaning_on_wall",
       "blend": false,
-      "locks_head": false,
-      "locks_tail": true,
       "can_move": false,
+      "locks_tail": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_spinning_on_back",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_spinning_on_back_fast",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_spinning_on_back_absurd",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "locks_tail": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_scare",
+      "blend": false,
+      "can_move": false,
+      "locks_tail": true,
+      "sound": {
+        "interval": 25,
+        "sound_event": "minecraft:entity.ender_dragon.growl"
+      }
+    },
+    {
+      "animation_key": "emote_battle_cry",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "locks_tail": true,
+          "sound": {
+            "interval": 25,
+            "volume": 2,
+            "sound_event": "minecraft:entity.ender_dragon.growl"
+          }
+    },
+    {
+      "animation_key": "emote_vibing",
+      "blend": false,
+      "can_move": false,
+      "locks_tail": true,
+      "loops": true
+    },
+    {
+      "animation_key": "emote_T-pose",
+      "blend": false,
+      "can_move": false,
+      "locks_head": true,
+      "locks_tail": true,
       "loops": true
     }
-
   ]
 }

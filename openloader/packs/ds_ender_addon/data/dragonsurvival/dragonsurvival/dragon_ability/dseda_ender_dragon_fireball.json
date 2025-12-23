@@ -1,7 +1,7 @@
 {
   "activation": {
     "activation_type": "dragonsurvival:simple",
-    "initial_mana_cost": 2,
+    "initial_mana_cost": 3,
     "cooldown": 80,
     "cast_time": 13,
     "can_move_while_casting": true,
@@ -34,6 +34,15 @@
         100
       ],
       "fallback": 15
+    }
+  },
+  "usage_blocked": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "effects": {
+        "dragonsurvival:magic_disabled": {}
+      }
     }
   },
   "actions": [

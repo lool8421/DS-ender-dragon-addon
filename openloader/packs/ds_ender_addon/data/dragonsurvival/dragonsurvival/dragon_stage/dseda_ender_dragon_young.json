@@ -72,6 +72,11 @@
         "per_level_above_first": 0.2
       },
       "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.safe_fall_distance",
+      "amount": 1,
+      "operation": "add_value"
     }
   ],
     "is_natural_growth_stopped": {

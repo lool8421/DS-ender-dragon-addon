@@ -43,7 +43,7 @@
       "amount": {
         "type": "minecraft:linear",
         "base": 0.5,
-        "per_level_above_first": 0.01
+        "per_level_above_first": 0.005
       },
       "operation": "add_multiplied_total"
     },
@@ -52,7 +52,7 @@
       "amount": {
         "type": "minecraft:linear",
         "base": 0.5,
-        "per_level_above_first": 0.01
+        "per_level_above_first": 0.005
       },
       "operation": "add_multiplied_total"
     },
@@ -61,7 +61,7 @@
       "amount": {
         "type": "minecraft:linear",
         "base": 10,
-        "per_level_above_first": 0.1
+        "per_level_above_first": 0.05
       },
       "operation": "add_value"
     },
@@ -78,6 +78,11 @@
     {
       "attribute": "minecraft:generic.jump_strength",
       "amount": 0.22,
+      "operation": "add_value"
+    },
+    {
+      "attribute": "minecraft:generic.safe_fall_distance",
+      "amount": 3,
       "operation": "add_value"
     },
     {

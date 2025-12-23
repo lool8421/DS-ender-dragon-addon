@@ -25,7 +25,9 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{OnGround:1b}"
+              "flags": {
+                "is_on_ground": true
+              }
             }
           },
           "targeting_mode": "all"
@@ -53,7 +55,9 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "nbt": "{OnGround:0b}"
+                        "flags": {
+                          "is_on_ground": false
+                        }
                       }
                     },
                     "custom_icon": "minecraft:textures/item/end_crystal.png",
@@ -64,8 +68,8 @@
                       "attribute": "dragonsurvival:mana_regeneration",
                       "amount": {
                         "type": "minecraft:linear",
-                        "base": 0.015,
-                        "per_level_above_first": 0.015
+                        "base": 0.01,
+                        "per_level_above_first": 0.01
                       },
                       "operation": "add_multiplied_total"
                     }

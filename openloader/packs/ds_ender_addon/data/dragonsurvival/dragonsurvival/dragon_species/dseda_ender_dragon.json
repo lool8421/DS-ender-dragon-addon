@@ -1,4 +1,9 @@
 {
+	"mana_handling": {
+		"mana_xp_conversion": 0,
+		"mana_per_level": 0.2,
+		"max_mana_from_levels": 9
+	},
 	"misc_resources": {
 		"ability_bar": "dragonsurvival:textures/gui/custom/casting_bars/dseda_ender_dragon/cast_bar.png",
 		"altar_banner": "dragonsurvival:textures/gui/custom/altar/dseda_ender_dragon/altar_icon.png",
@@ -25,8 +30,8 @@
 			"recovery": "dragonsurvival:textures/gui/custom/mana_icons/dseda_ender_dragon/recovery.png",
 			"reserved": "dragonsurvival:textures/gui/custom/mana_icons/dseda_ender_dragon/reserved.png"
 		},
-		"primary_color": "#E400FF",
-		"secondary_color": "#B100DD"
+		"primary_color": "#E420FF",
+		"secondary_color": "#E120FD"
 	},
 	"penalties": "#dragonsurvival:dseda_ender_dragon",
 	"abilities": "#dragonsurvival:dseda_ender_dragon",

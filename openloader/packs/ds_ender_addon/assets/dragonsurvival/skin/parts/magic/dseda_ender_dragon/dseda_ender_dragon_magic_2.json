@@ -1,0 +1,12 @@
+{
+    "key": "dseda_ender_dragon_magic_2",
+    "texture": "dragonsurvival:textures/dragon/custom/dseda_ender_dragon_magic_2.png",
+    "average_hue": 0.82,
+    "is_glowing": true,
+    "applicable_species": [
+        "dragonsurvival:dseda_ender_dragon"
+    ],
+    "applicable_bodies": [
+        "dragonsurvival:dseda_ender_dragon_body"
+    ]
+}

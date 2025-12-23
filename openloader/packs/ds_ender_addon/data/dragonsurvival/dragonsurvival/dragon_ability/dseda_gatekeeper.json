@@ -29,6 +29,15 @@
         "condition": "minecraft:any_of",
         "terms": [
             {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "dragonsurvival:magic_disabled": {}
+                    }
+                }
+            },
+            {
                 "condition": "minecraft:inverted",
                 "term": {
                     "condition": "minecraft:entity_scores",
@@ -38,6 +47,15 @@
                             "min": 4,
                             "max": 999999
                         }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "flags": {
+                        "is_on_ground": false
                     }
                 }
             }
@@ -64,11 +82,11 @@
     "icon": {
         "texture_entries": [
             {
-                "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/purification_ritual_0",
+                "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/gatekeeper_0",
                 "from_level": 0
             },
             {
-                "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/purification_ritual_1",
+                "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/gatekeeper_1",
                 "from_level": 1
             }
         ]

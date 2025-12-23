@@ -24,6 +24,15 @@
       "fallback": 25
     }
   },
+  "usage_blocked": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "effects": {
+        "dragonsurvival:magic_disabled": {}
+      }
+    }
+  },
   "actions": [
     {
       "target_selection": {

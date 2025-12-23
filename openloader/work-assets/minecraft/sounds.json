@@ -1,0 +1,9 @@
+{
+    "entity.ender_dragon.growl_500ms": {
+        "sounds": ["minecraft:entity/ender_dragon/growl-500ms-delay"]
+    },
+    "entity.ender_dragon.growl_1000ms": {
+        "sounds": ["minecraft:entity/ender_dragon/growl-1000ms-delay"]
+    }
+    
+}

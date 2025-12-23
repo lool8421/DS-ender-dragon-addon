@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:enderman",
+    "minecraft:ender_dragon",
+    "minecraft:end_crystal",
+    "minecraft:item",
+    "minecraft:experience_orb",
+    "minecraft:item_frame",
+    "minecraft:glow_item_frame"
+  ]
+}

@@ -37,8 +37,8 @@
                     "id": "dseda_physical_vulnerability",
                     "is_hidden": true
                   },
-                  "damage_types": "#minecraft:is_projectile",
-                  "multiplier": 1.2
+                  "damage_types": "minecraft:bad_respawn_point",
+                  "multiplier": 1.5
                 }
               ]
             }
