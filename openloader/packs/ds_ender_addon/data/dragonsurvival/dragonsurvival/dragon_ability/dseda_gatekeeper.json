@@ -2,7 +2,7 @@
     "activation": {
         "activation_type": "dragonsurvival:simple",
         "initial_mana_cost": 10,
-        "cast_time": 300,
+        "cast_time": 200,
         "cooldown": 0,
         "can_move_while_casting": false,
         "animations": {

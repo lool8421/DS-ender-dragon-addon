@@ -1,35 +1,33 @@
 {
-  "activation": {
-    "activation_type": "dragonsurvival:passive"
-  },
   "actions": [
     {
       "target_selection": {
-        "target_type": "dragonsurvival:self",
         "applied_effects": {
           "entity_effect": [
             {
               "effect_type": "dragonsurvival:flight",
-              "level_requirement": 0,
-              "icon": "dragonsurvival:abilities/dseda_ender_dragon/ender_wings"
+              "icon": "dragonsurvival:textures/gui/sprites/abilities/dseda_ender_dragon/ender_wings_2.png",
+              "level_requirement": 1
             },
             {
               "effect_type": "dragonsurvival:spin",
-              "level_requirement": 0
+              "level_requirement": 1
             }
           ],
           "targeting_mode": "allies_and_self"
-        }
-      },
-      "trigger_rate": 1
+        },
+        "target_type": "dragonsurvival:self"
+      }
     }
   ],
-  "can_be_manually_disabled": false,
+  "activation": {
+    "activation_type": "dragonsurvival:passive"
+  },
   "icon": {
     "texture_entries": [
       {
-        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/ender_wings",
-        "from_level": 0
+        "from_level": 0,
+        "texture_resource": "dragonsurvival:abilities/dseda_ender_dragon/ender_wings"
       }
     ]
   }

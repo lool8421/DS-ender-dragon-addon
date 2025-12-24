@@ -8,7 +8,7 @@
             0.75
         ]
     },
-    "bettercombat_weapon_offset": -3.0,
+    "bettercombat_weapon_offset": -3,
     "can_hide_wings": false,
     "crouch_height_ratio": 0.7,
     "default_icon": "dragonsurvival:textures/gui/custom/body/center/dseda_ender_dragon.png",
@@ -37,24 +37,25 @@
     },
     "mounting_offset": {
         "dragon_offset": [
+            0,
             0.0,
-            0.0,
-            0.0
+            -1.33
         ],
         "human_offset": [
-            0.0,
-            0.0,
-            0.0
+            0,
+            -0.3,
+            -1.36
         ],
         "offset_per_scale_above_one": [
-            0.0,
-            -0.25,
-            -0.5
+            0,
+            0,
+            -1.33
         ]
     },
     "scaling_proportions": {
         "eye_height": 1.7,
         "height": 1.85,
-        "width": 0.45
+        "width": 0.45,
+        "shadow_multiplier": 0
     }
 }

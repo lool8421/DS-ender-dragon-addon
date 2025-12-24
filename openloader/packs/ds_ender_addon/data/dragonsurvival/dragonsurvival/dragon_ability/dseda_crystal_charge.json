@@ -1,7 +1,7 @@
 {
   "activation": {
     "activation_type": "dragonsurvival:channeled",
-    "initial_mana_cost": 2,
+    "initial_mana_cost": 0,
     "continuous_mana_cost": {
       "type": "ticking",
       "amount": 0

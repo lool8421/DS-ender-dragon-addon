@@ -1,12 +1,5 @@
 
-graphics:
-
-- fix wing and stage icon texture
-- test other players mounting
-- add icons for several more abilities
-- make pack.png
-- make lang files, maybe add colors in some places
-
+1st release: DONE
 
 shelf for next updates:
 

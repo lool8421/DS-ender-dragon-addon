@@ -7,7 +7,7 @@
 			"bones": {
 				"body": {
 					"position": {
-						"vector": [0, 0, "0; v.head_down_limit = -12;"]
+						"vector": [0, -10, "0; v.head_down_limit = -12;"]
 					}
 				},
 				"Rwing": {
@@ -387,7 +387,7 @@
 			"bones": {
 				"body": {
 					"position": {
-						"vector": [0, 0, "0; v.can_rotate_head = 0;"]
+						"vector": [0, -10, "0; v.can_rotate_head = 0;"]
 					}
 				},
 				"Rwing": {
@@ -532,21 +532,7 @@
 						}
 					},
 					"position": {
-						"0.0": {
-							"vector": [0, 2, "0; v.head_down_limit = -8"]
-						},
-						"0.4583": {
-							"vector": [0, 0, 0],
-							"easing": "easeOutSine"
-						},
-						"1.2083": {
-							"vector": [0, 4, 0],
-							"easing": "easeInOutSine"
-						},
-						"1.5": {
-							"vector": [0, 2, 0],
-							"easing": "easeOutSine"
-						}
+						"vector": [0, -2, "0; v.head_down_limit = -8"]
 					}
 				},
 				"Rwing": {
@@ -953,7 +939,7 @@
 					},
 					"position": {
 						"0.0": {
-							"vector": [0, 2, 0]
+							"vector": [0, 0, 0]
 						},
 						"0.4167": {
 							"vector": [0, 0, 0],
@@ -1173,6 +1159,9 @@
 				"body": {
 					"rotation": {
 						"vector": [-2.5, 0, "0; v.head_down_limit = -12;"]
+					},
+					"position": {
+						"vector": [0, -10, 0]
 					}
 				},
 				"Rwing": {
@@ -1312,6 +1301,9 @@
 				"body": {
 					"rotation": {
 						"vector": [-2.5, 0, "0; v.head_down_limit = -6;"]
+					},
+					"position": {
+						"vector": [0, -10, 0]
 					}
 				},
 				"Rwing": {
@@ -1451,6 +1443,9 @@
 				"body": {
 					"rotation": {
 						"vector": [-2.5, 0, "0; v.head_down_limit = -6;"]
+					},
+					"position": {
+						"vector": [0, -10, 0]
 					}
 				},
 				"Rwing": {
@@ -6876,6 +6871,9 @@
 				"body": {
 					"rotation": {
 						"vector": ["-0; v.head_up_limit = 8; v.head_down_limit = 0;", 0, 0]
+					},
+					"position": {
+						"vector": [0, -10, 0]
 					}
 				},
 				"Rwing": {
@@ -7324,7 +7322,7 @@
 				}
 			}
 		},
-		"emote_sit": {
+		"dseda_emote_sit": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -7480,7 +7478,7 @@
 				}
 			}
 		},
-		"emote_roar": {
+		"dseda_emote_roar": {
 			"animation_length": 1.5,
 			"bones": {
 				"mouth": {
@@ -7503,7 +7501,7 @@
 				}
 			}
 		},
-		"emote_angry": {
+		"dseda_emote_angry": {
 			"loop": "hold_on_last_frame",
 			"bones": {
 				"Reyelid": {
@@ -7524,7 +7522,7 @@
 				}
 			}
 		},
-		"emote_sleep_left": {
+		"dseda_emote_sleep_left": {
 			"loop": true,
 			"override_previous_animation": true,
 			"bones": {
@@ -7700,7 +7698,7 @@
 				}
 			}
 		},
-		"emote_sleep_right": {
+		"dseda_emote_sleep_right": {
 			"loop": true,
 			"override_previous_animation": true,
 			"bones": {
@@ -7876,7 +7874,7 @@
 				}
 			}
 		},
-		"emote_sleep_back": {
+		"dseda_emote_sleep_back": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -8014,7 +8012,7 @@
 				}
 			}
 		},
-		"emote_sleep_front": {
+		"dseda_emote_sleep_front": {
 			"loop": true,
 			"override_previous_animation": true,
 			"bones": {
@@ -8160,7 +8158,7 @@
 				}
 			}
 		},
-		"emote_lay_down": {
+		"dseda_emote_lay_down": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -8240,7 +8238,7 @@
 				}
 			}
 		},
-		"emote_laying_on_back": {
+		"dseda_emote_laying_on_back": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -8368,7 +8366,7 @@
 				}
 			}
 		},
-		"emote_leaning_on_wall": {
+		"dseda_emote_leaning_on_wall": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -8536,7 +8534,7 @@
 				}
 			}
 		},
-		"emote_spinning_on_back": {
+		"dseda_emote_spinning_on_back": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -8705,7 +8703,7 @@
 				}
 			}
 		},
-		"emote_spinning_on_back_fast": {
+		"dseda_emote_spinning_on_back_fast": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -8874,7 +8872,7 @@
 				}
 			}
 		},
-		"emote_spinning_on_back_absurd": {
+		"dseda_emote_spinning_on_back_absurd": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -9043,7 +9041,7 @@
 				}
 			}
 		},
-		"emote_scare": {
+		"dseda_emote_scare": {
 			"animation_length": 2,
 			"bones": {
 				"body": {
@@ -9359,7 +9357,7 @@
 				}
 			}
 		},
-		"emote_battle_cry": {
+		"dseda_emote_battle_cry": {
 			"animation_length": 2.5,
 			"bones": {
 				"body": {
@@ -9643,7 +9641,7 @@
 				}
 			}
 		},
-		"emote_vibing": {
+		"dseda_emote_vibing": {
 			"loop": true,
 			"animation_length": 1.5,
 			"bones": {
@@ -10048,7 +10046,7 @@
 				}
 			}
 		},
-		"emote_T-pose": {
+		"dseda_emote_T-pose": {
 			"loop": "hold_on_last_frame",
 			"bones": {
 				"body": {
