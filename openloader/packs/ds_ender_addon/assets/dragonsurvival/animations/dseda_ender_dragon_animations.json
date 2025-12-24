@@ -4973,7 +4973,7 @@
 				},
 				"head-scale": {
 					"scale": {
-						"vector": ["math.clamp(-query.scale + 1,1,1.75)", "math.clamp(-query.scale + 1,1,1.75)", "math.clamp(-query.scale + 1,1,1.75)"]
+						"vector": ["math.clamp(-query.scale + 2,1,1.75)", "math.clamp(-query.scale + 2,1,1.75)", "math.clamp(-query.scale + 2,1,1.75)"]
 					}
 				}
 			}
