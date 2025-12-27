@@ -133,6 +133,14 @@
 					
 				},
 				{
+					"items": "minecraft:granite",
+					"properties": {
+						"eat_seconds": 3.0,
+						"nutrition": 2,
+						"saturation": 0.5
+					}
+				},
+				{
 					"items": "minecraft:ghast_tear",
 					"properties": {
 						"eat_seconds": 0.4,

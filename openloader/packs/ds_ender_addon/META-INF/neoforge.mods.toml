@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[3,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/lool8421/DS-ender-dragon-addon/issues"
+logoFile = "pack.png"
+
+[[mods]]
+    modId = "ds_ender_dragon_addon"
+    version = "1.1"
+    displayName = "Play as Ender Dragon - Dragon survival addon"
+    authors = "lool8421"
+    description = " An addon for dragon survival mod that allows you to become the ender dragon. Feel free to play with this addon as long as you give credit and don't violate the license of dragon survival mod."
+
+[[dependencies.ds_ender_dragon-addon]]
+	modId="neoforge" 
+	type="required"
+	mandatory = true
+	versionRange="[21.1.186,)"
+	ordering="NONE"
+	side="BOTH"
+
+[[dependencies.ds_ender_dragon_addon]]
+    	modId = "geckolib"
+    	mandatory = true
+    	versionRange = "[4.6,)"
+    	ordering = "NONE"
+    	side = "CLIENT"
+
+
+[[dependencies.ds_ender_dragon_addon]]
+    	modId = "dragonsurvival"
+    	mandatory = true
+    	versionRange = "[2.0.51,)"
+    	ordering = "NONE"
+

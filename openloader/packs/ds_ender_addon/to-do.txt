@@ -1,7 +1,0 @@
-
-1st release: DONE
-
-shelf for next updates:
-
-- armor and claw item textures
-- make specific end spawn platforms

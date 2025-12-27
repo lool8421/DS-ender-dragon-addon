@@ -25,6 +25,24 @@
       "loops": true
     },
     {
+      "animation_key": "dseda_emote_sad",
+      "blend": true,
+      "can_move": true,
+      "loops": true
+    },
+    {
+      "animation_key": "dseda_emote_tilt_head_left",
+      "blend": true,
+      "can_move": true,
+      "loops": true
+    },
+    {
+      "animation_key": "dseda_emote_tilt_head_right",
+      "blend": true,
+      "can_move": true,
+      "loops": true
+    },
+    {
       "animation_key": "dseda_emote_sleep_left",
       "blend": false,
       "can_move": false,
@@ -131,6 +149,13 @@
       "locks_tail": true,
       "loops": true
     },
+    {
+      "animation_key": "dseda_emote_griefing",
+      "blend": false,
+      "can_move": false,
+      "locks_tail": true,
+      "loops": true
+    },    
     {
       "animation_key": "dseda_emote_T-pose",
       "blend": false,

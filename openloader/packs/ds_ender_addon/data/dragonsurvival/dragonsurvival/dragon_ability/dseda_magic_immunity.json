@@ -35,9 +35,19 @@
                 {
                   "base": {
                     "id": "dseda_physical_vulnerability",
+                    "should_remove_automatically": false,
                     "is_hidden": true
                   },
                   "damage_types": "minecraft:bad_respawn_point",
+                  "multiplier": 2
+                },
+                {
+                  "base": {
+                    "id": "dseda_is_dragon",
+                    "should_remove_automatically": false,
+                    "is_hidden": true
+                  },
+                  "damage_types": "dragonsurvival:anti_dragon",
                   "multiplier": 1.5
                 }
               ]
