@@ -6,7 +6,7 @@ logoFile = "pack.png"
 
 [[mods]]
     modId = "ds_ender_dragon_addon"
-    version = "1.1"
+    version = "1.0.1"
     displayName = "Play as Ender Dragon - Dragon survival addon"
     authors = "lool8421"
     description = " An addon for dragon survival mod that allows you to become the ender dragon. Feel free to play with this addon as long as you give credit and don't violate the license of dragon survival mod."
