@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "dseda_kill_enderman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "nbt": "{\"neoforge:attachments\":{\"dragonsurvival:dragon_handler\":{\"dragon_species\":\"dragonsurvival:dseda_ender_dragon\"}}}"
+                },
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dseda_kill_enderman"
+        ]
+    ],
+    "rewards": {
+        "function": "ds_ender_dragon_addon:enderman-behavior/kill"
+    }
+}

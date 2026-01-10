@@ -1,0 +1,19 @@
+{
+    "values": {
+        "dragonsurvival:dseda_ender_dragon": {
+            "neoforge:conditions": [
+                {
+                    "type": "dragonsurvival:registered",
+                    "registry": "dragonsurvival:dragon_species",
+                    "value": "dragonsurvival:dseda_ender_dragon"
+                }
+            ],
+            "spawn_position": [
+                -1200,
+                80,
+                0
+            ],
+            "structure": "ds_ender_dragon_addon:ender_dragon_spawn_platform"
+        }
+    }
+}
