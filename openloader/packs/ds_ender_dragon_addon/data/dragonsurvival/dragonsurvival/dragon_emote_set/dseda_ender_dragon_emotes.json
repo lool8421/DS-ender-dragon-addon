@@ -31,14 +31,20 @@
       "loops": true
     },
     {
-      "animation_key": "dseda_emote_tilt_head_left",
+      "animation_key": "dseda_emote_sleepy_eyes",
       "blend": true,
       "can_move": true,
       "loops": true
     },
     {
+      "animation_key": "dseda_emote_tilt_head_left",
+      "blend": false,
+      "can_move": true,
+      "loops": true
+    },
+    {
       "animation_key": "dseda_emote_tilt_head_right",
-      "blend": true,
+      "blend": false,
       "can_move": true,
       "loops": true
     },
@@ -71,6 +77,13 @@
       "blend": false,
       "can_move": false,
       "locks_head": true,
+      "locks_tail": true,
+      "loops": true
+    },
+    {
+      "animation_key": "dseda_emote_rest",
+      "blend": false,
+      "can_move": false,
       "locks_tail": true,
       "loops": true
     },

@@ -41,7 +41,7 @@ execute store result storage minecraft:dseda_fireball_explosion clouddensity int
 
 #explosion owner
 $data modify storage minecraft:dseda_fireball_explosion OwnerUUID set value $(OwnerUUID)
-
+$data modify storage minecraft:dseda_fireball_explosion OwnerUUIDstring set value "$(OwnerUUIDstring)"
 
 
 function ds_ender_dragon_addon:fireball-data/fireball-dmg with storage minecraft:dseda_fireball_explosion

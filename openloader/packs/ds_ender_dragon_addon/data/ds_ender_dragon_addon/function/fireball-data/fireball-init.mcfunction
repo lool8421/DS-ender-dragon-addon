@@ -12,6 +12,9 @@ execute store result storage dseda_fireball_data spread int 1.5 run scoreboard p
 # x100 is only for precision purposes, it will be divided later on, you can imagine it as a percentage, it exists purely for the sake of making damage affected by the ability damage attribute
 execute store result storage dseda_fireball_data multiplier double 1 run attribute @s dragonsurvival:dragon_ability_damage get 100
 
+#having 2 UUID types for owner is redundant but necessary for performance reasons
+function ds_ender_dragon_addon:uuid-converter/generate
 data modify storage dseda_fireball_data OwnerUUID set from entity @s UUID
+data modify storage dseda_fireball_data OwnerUUIDstring set from storage dseda_uuid_converter:main out
 
 execute if score temp dseda_var matches 1.. run function ds_ender_dragon_addon:fireball-data/fireball-fire with storage dseda_fireball_data
