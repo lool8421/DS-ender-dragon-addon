@@ -1,5 +1,6 @@
-execute if predicate \
-{condition:"minecraft:entity_properties",entity:"this",predicate:{targeted_entity:{nbt:"{\"neoforge:attachments\":{\"dragonsurvival:dragon_handler\":{dragon_species:\"dragonsurvival:dseda_ender_dragon\"}}}"}}} \
-unless predicate \
-{condition:"minecraft:entity_properties",entity:"this",predicate:{targeted_entity:{nbt:"{Tags:['dseda_enderman_hostile']}"}}} \
-run function ds_ender_dragon_addon:enderman-behavior/enderman-control
+scoreboard players set temp dseda_var 0
+
+execute if predicate ds_ender_dragon_addon:targeting_ender_dragon_player on target \
+unless score @s dseda_enderman_reputation matches 10.. run scoreboard players set temp dseda_var 1
+
+execute if score temp dseda_var matches 1 run function ds_ender_dragon_addon:enderman-behavior/enderman-control

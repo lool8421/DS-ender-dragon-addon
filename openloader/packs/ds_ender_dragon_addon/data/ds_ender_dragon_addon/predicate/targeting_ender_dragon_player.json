@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "targeted_entity": {
+
+            "type":"minecraft:player",
+
+            "type_specific":{
+                "type": "dragonsurvival:dragon_predicate",
+                "dragon_species": "dragonsurvival:dseda_ender_dragon"
+            }
+
+        }
+    }
+}

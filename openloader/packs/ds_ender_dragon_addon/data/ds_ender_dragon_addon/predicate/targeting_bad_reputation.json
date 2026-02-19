@@ -1,0 +1,18 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "targeted_entity": {
+            "predicates":{
+                "condition": "minecraft:entity_scores",
+                "entity": "targer_entity",
+                "scores": {
+                    "dseda_enderman_reputation": {
+                        "min": 10,
+                        "max": 9999999
+                    }
+                }
+            }
+        }
+    }
+}
