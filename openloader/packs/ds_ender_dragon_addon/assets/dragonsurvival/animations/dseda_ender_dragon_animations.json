@@ -10993,6 +10993,16 @@
 						"vector": [5.64867, 2.73175, 23.88165]
 					}
 				},
+				"neck5": {
+					"rotation": {
+						"vector": [-2.5, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-2.5, 0, 0]
+					}
+				},
 				"tail": {
 					"rotation": {
 						"vector": [-10, 0, 0]
@@ -11109,7 +11119,7 @@
 				"neck3-rotationX": {
 					"rotation": {
 						"vector": [
-							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -3.5,    15  )",
+							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -4.5,    15  )",
 							"-math.clamp(  query.head_yaw * 0.14 *   (query.head_pitch < 0 ? math.abs(0.1+math.cos(query.head_pitch)) : 1.1),  -24,  24)",
 							"math.clamp(    (query.head_yaw * -0.035),    -10,    10)"
 						]
@@ -11118,7 +11128,7 @@
 				"neck4-rotationX": {
 					"rotation": {
 						"vector": [
-							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -3.5,    15  )",
+							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -4.5,    15  )",
 							"-math.clamp(  query.head_yaw * 0.14 *   (query.head_pitch < 0 ? math.abs(0.1+math.cos(query.head_pitch)) : 1.1),  -24,  24)",
 							"math.clamp(    (query.head_yaw * -0.035),    -10,    10)"
 						]
@@ -11127,7 +11137,7 @@
 				"neck5-rotationX": {
 					"rotation": {
 						"vector": [
-							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -3.5,    15  )",
+							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -4.5,    15  )",
 							"-math.clamp(  query.head_yaw * 0.14 *   (query.head_pitch < 0 ? math.abs(0.1+math.cos(query.head_pitch)) : 1.1),  -24,  24)",
 							"math.clamp(    (query.head_yaw * -0.035),    -10,    10)"
 						]
@@ -11136,7 +11146,7 @@
 				"head-rotationX": {
 					"rotation": {
 						"vector": [
-							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -3.5,    15  )",
+							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -4.5,    15  )",
 							"-math.clamp(  query.head_yaw * 0.14 *   (query.head_pitch < 0 ? math.abs(0.1+math.cos(query.head_pitch)) : 1.1),  -24,  24)",
 							"math.clamp(    (query.head_yaw * -0.035),    -10,    10)"
 						]

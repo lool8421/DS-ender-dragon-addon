@@ -38,13 +38,13 @@
     },
     {
       "animation_key": "dseda_emote_tilt_head_left",
-      "blend": false,
+      "blend": true,
       "can_move": true,
       "loops": true
     },
     {
       "animation_key": "dseda_emote_tilt_head_right",
-      "blend": false,
+      "blend": true,
       "can_move": true,
       "loops": true
     },

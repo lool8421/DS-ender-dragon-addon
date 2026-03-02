@@ -358,18 +358,18 @@
 				"FLleg": {
 					"rotation": {
 						"0.0": {
-							"vector": [25, 0, 0]
+							"vector": ["25-(20*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0]
 						},
 						"0.25": {
-							"vector": [20, 0, 0],
+							"vector": ["20-(20*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeOutSine"
 						},
 						"0.75": {
-							"vector": [30, 0, 0],
+							"vector": ["30-(20*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeInOutSine"
 						},
 						"1.0": {
-							"vector": [25, 0, 0],
+							"vector": ["25-(20*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeInSine"
 						}
 					}
@@ -401,18 +401,18 @@
 				"FRleg": {
 					"rotation": {
 						"0.0": {
-							"vector": [25, 0, 0]
+							"vector": ["25-(20*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0]
 						},
 						"0.25": {
-							"vector": [20, 0, 0],
+							"vector": ["20-(20*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeOutSine"
 						},
 						"0.75": {
-							"vector": [30, 0, 0],
+							"vector": ["30-(20*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeInOutSine"
 						},
 						"1.0": {
-							"vector": [25, 0, 0],
+							"vector": ["25-(20*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeInSine"
 						}
 					}
@@ -444,18 +444,18 @@
 				"BLleg": {
 					"rotation": {
 						"0.0": {
-							"vector": [5, 0, 0]
+							"vector": ["5-(10*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0]
 						},
 						"0.25": {
-							"vector": [0, 0, 0],
+							"vector": ["-0-(10*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeOutSine"
 						},
 						"0.75": {
-							"vector": [10, 0, 0],
+							"vector": ["10-(10*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeInOutSine"
 						},
 						"1.0": {
-							"vector": [5, 0, 0],
+							"vector": ["5-(10*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeInSine"
 						}
 					}
@@ -487,18 +487,18 @@
 				"BRleg": {
 					"rotation": {
 						"0.0": {
-							"vector": [5, 0, 0]
+							"vector": ["5-(10*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0]
 						},
 						"0.25": {
-							"vector": [0, 0, 0],
+							"vector": ["-0-(10*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeOutSine"
 						},
 						"0.75": {
-							"vector": [10, 0, 0],
+							"vector": ["10-(10*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeInOutSine"
 						},
 						"1.0": {
-							"vector": [5, 0, 0],
+							"vector": ["5-(10*(1-math.clamp(2*query.ground_speed,0,1)))", 0, 0],
 							"easing": "easeInSine"
 						}
 					}
@@ -11165,6 +11165,16 @@
 						"vector": [5.64867, 2.73175, 23.88165]
 					}
 				},
+				"neck5": {
+					"rotation": {
+						"vector": [-2.5, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-2.5, 0, 0]
+					}
+				},
 				"tail": {
 					"rotation": {
 						"vector": [-10, 0, 0]
@@ -11281,7 +11291,7 @@
 				"neck3-rotationX": {
 					"rotation": {
 						"vector": [
-							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -3.5,    15  )",
+							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -4.5,    15  )",
 							"-math.clamp(  query.head_yaw * 0.14 *   (query.head_pitch < 0 ? math.abs(0.1+math.cos(query.head_pitch)) : 1.1),  -24,  24)",
 							"math.clamp(    (query.head_yaw * -0.035),    -10,    10)"
 						]
@@ -11290,7 +11300,7 @@
 				"neck4-rotationX": {
 					"rotation": {
 						"vector": [
-							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -3.5,    15  )",
+							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -4.5,    15  )",
 							"-math.clamp(  query.head_yaw * 0.14 *   (query.head_pitch < 0 ? math.abs(0.1+math.cos(query.head_pitch)) : 1.1),  -24,  24)",
 							"math.clamp(    (query.head_yaw * -0.035),    -10,    10)"
 						]
@@ -11299,7 +11309,7 @@
 				"neck5-rotationX": {
 					"rotation": {
 						"vector": [
-							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -3.5,    15  )",
+							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -4.5,    15  )",
 							"-math.clamp(  query.head_yaw * 0.14 *   (query.head_pitch < 0 ? math.abs(0.1+math.cos(query.head_pitch)) : 1.1),  -24,  24)",
 							"math.clamp(    (query.head_yaw * -0.035),    -10,    10)"
 						]
@@ -11308,7 +11318,7 @@
 				"head-rotationX": {
 					"rotation": {
 						"vector": [
-							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -3.5,    15  )",
+							"-math.clamp(  (-1)+(query.head_pitch * -0.15),  -4.5,    15  )",
 							"-math.clamp(  query.head_yaw * 0.14 *   (query.head_pitch < 0 ? math.abs(0.1+math.cos(query.head_pitch)) : 1.1),  -24,  24)",
 							"math.clamp(    (query.head_yaw * -0.035),    -10,    10)"
 						]
