@@ -1,7 +1,7 @@
 {
   "growth_items": [
     {
-      "growth_in_ticks": 48000,
+      "growth_in_ticks": 72000,
       "items": "dragonsurvival:elder_dragon_heart"
     },
     {
@@ -14,7 +14,11 @@
     },
     {
       "items": "dragonsurvival:weak_dragon_heart",
-      "growth_in_ticks": 12000
+      "growth_in_ticks": 36000
+    },
+    {
+      "items": "dragonsurvival:heart_element",
+      "growth_in_ticks": 9000
     }
   ],
   "growth_range": {

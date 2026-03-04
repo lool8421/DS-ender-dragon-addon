@@ -1,7 +1,7 @@
 {
   "growth_items": [
     {
-      "growth_in_ticks": 12000,
+      "growth_in_ticks": 36000,
       "items": "dragonsurvival:elder_dragon_heart"
     },
     {
@@ -11,6 +11,14 @@
     {
       "growth_in_ticks": 0,
       "items": "dragonsurvival:star_heart"
+    },
+    {
+      "items": "dragonsurvival:weak_dragon_heart",
+      "growth_in_ticks": 3600
+    },
+    {
+      "items": "dragonsurvival:heart_element",
+      "growth_in_ticks": 2400
     }
   ],
   "growth_range": {
@@ -101,5 +109,5 @@
       "is_growth_stopped": true
     }
   },
-  "ticks_until_grown": 12096000
+  "ticks_until_grown": 24192000
 }
