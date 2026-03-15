@@ -1,4 +1,7 @@
 {
+  "features": {
+    "enabled": []
+  },
   "pack": {
     "pack_format": 48,
     "description": "Adds meats and fish to the diet list for ender dragon species"
