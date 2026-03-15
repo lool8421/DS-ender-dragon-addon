@@ -2693,8 +2693,19 @@
 			}
 		},
 		"jump": {
-			"animation_length": 0.25,
+			"animation_length": 0.2917,
 			"bones": {
+				"neck2": {
+					"rotation": {
+						"0.0": {
+							"vector": [-2.5, 0, 0]
+						},
+						"0.2917": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				},
 				"FLleg": {
 					"rotation": {
 						"0.0": {
@@ -2834,6 +2845,17 @@
 							"easing": "easeOutSine"
 						},
 						"0.1667": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				},
+				"Neck": {
+					"rotation": {
+						"0.0": {
+							"vector": [-2.5, 0, 0]
+						},
+						"0.2917": {
 							"vector": [0, 0, 0],
 							"easing": "easeInSine"
 						}
