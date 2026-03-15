@@ -1,0 +1,48 @@
+{
+    "replace": false,
+    "values": {
+        "dragonsurvival:dseda_ender_dragon": {
+            "neoforge:conditions": [
+                {
+                    "type": "dragonsurvival:registered",
+                    "registry": "dragonsurvival:dragon_species",
+                    "value": "dragonsurvival:dseda_ender_dragon"
+                }
+            ],
+            "neoforge:value": [
+                {
+                    "items": "#c:foods/raw_fish",
+                    "properties": {
+                        "eat_seconds": 0.8,
+                        "nutrition": 3,
+                        "saturation": 1.0
+                    }
+                },
+                {
+                    "items": "#c:foods/raw_meat",
+                    "properties": {
+                        "eat_seconds": 0.8,
+                        "nutrition": 3,
+                        "saturation": 1.0
+                    }
+                },
+                {
+                    "items": "#c:foods/cooked_fish",
+                    "properties": {
+                        "eat_seconds": 0.8,
+                        "nutrition": 6,
+                        "saturation": 2.0
+                    }
+                },
+                {
+                    "items": "#c:foods/cooked_meat",
+                    "properties": {
+                        "eat_seconds": 0.8,
+                        "nutrition": 6,
+                        "saturation": 2.0
+                    }
+                }
+            ]
+        }
+    }
+}
