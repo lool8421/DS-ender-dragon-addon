@@ -119,11 +119,19 @@
               },
               "attribute_scales": [
                 {
+                  "attributes": "minecraft:generic.armor_toughness",
+                  "scale": {
+                    "type": "minecraft:linear",
+                    "base": 0,
+                    "per_level_above_first": 1
+                  }
+                },
+                {
                   "attributes": "minecraft:generic.armor",
                   "scale": {
                     "type": "minecraft:linear",
                     "base": 0,
-                    "per_level_above_first": 4
+                    "per_level_above_first": 1
                   }
                 },
                 {
@@ -141,6 +149,16 @@
                     "duration": -1,
                     "id": "minecraft:regeneration",
                     "show_particles": false
+                  }
+                ],
+                "attributes": [
+                  {
+                    "id": "minecraft:generic.armor",
+                    "base": 4
+                  },
+                  {
+                    "id": "minecraft:generic.armor_toughness",
+                    "base": 2
                   }
                 ]
               },

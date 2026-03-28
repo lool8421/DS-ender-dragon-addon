@@ -38,7 +38,7 @@
     "mounting_offset": {
         "dragon_offset": [
             0,
-            0.0,
+            -0.01,
             -1.33
         ],
         "human_offset": [

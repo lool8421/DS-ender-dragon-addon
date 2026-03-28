@@ -3,7 +3,7 @@
     "activation_type": "dragonsurvival:channeled",
     "continuous_mana_cost": {
       "type": "ticking",
-      "amount": 0.075
+      "amount": 0.06
     },
     "cast_time": 20,
     "cooldown": 40,
