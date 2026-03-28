@@ -166,7 +166,10 @@
 									"duration": 1200
 								}
 							}
-						]
+						],
+						"using_converts_to": {
+							"id": "minecraft:golden_apple"
+						}
 					}
 					
 				},
